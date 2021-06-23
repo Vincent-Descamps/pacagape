@@ -1,32 +1,40 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <nav id="nav">
+      <router-link :to="`/`">Acceuil</router-link>
+      <router-link :to="`/unity`">Unité</router-link>
+      <router-link :to="`/jesus`">Pourquoi Jésus</router-link>
+      <router-link :to="`/disciple`">Disciple</router-link>
+      <router-link :to="`/evangelism`">Evangélisation</router-link>
+      <router-link :to="`/worship`">Louanges</router-link>
+      <router-link :to="`/partage`">Partage</router-link>
+      <a href="#">A propos</a>
+    </nav>
     <router-view />
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-#nav {
-  padding: 30px;
+nav{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  right: 20px;
+  position: absolute;
+  justify-content: flex-end;
+  z-index: 1;
 }
-
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #8b8e8f;
+  margin-right: 2%;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #CF2418;
 }
 </style>
