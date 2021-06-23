@@ -6,25 +6,17 @@
     </header>
     <main>
        <h1>Évenements Chrétiens</h1>
-      <div class="list">
         <!--Publication des evenements chrétiens de la région-->
-        <event-component v-for="(article, index) in data.slice(0, 6)" 
-        :key="index"
-        :title="article.title"
-        :image="article.urlToImage"
-        :content="article.content"
-        :author="article.author"
-        :link="article.url"
-        />
-      </div>
-      <h1>Trouver un église</h1>
-      <map-component />
+            <event-component :events="events" />
+        <h1>Trouver un église</h1>
+            <map-component />
     </main>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+import data from "@/data.json"
+//import axios from 'axios';
 import EventComponent from "@/components/EventComponent.vue";
 import MapComponent from '../components/MapComponent.vue';
 
@@ -35,15 +27,15 @@ export default {
   },
   data () {
         return {
-            data: [],
+            events: data.event
         }
     },
     //a remplacer par api bdd 
-    mounted () {
-        axios
-        .get("https://newsapi.org/v2/top-headlines?country=fr&apiKey=e46b0aaf0ca445f1852d261b861e4eb0")
-        .then(response => (this.data = response.data.articles));
-    }
+    // mounted () {
+    //     axios
+    //     .get("https://newsapi.org/v2/top-headlines?country=fr&apiKey=e46b0aaf0ca445f1852d261b861e4eb0")
+    //     .then(response => (this.data = response.data.articles));
+    // }
 }
 </script>
 
@@ -55,10 +47,7 @@ main h1{
   text-align: center;
   padding: 80px;
 }
-.list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+main{
+  padding: 60px;
 }
 </style>

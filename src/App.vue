@@ -8,7 +8,7 @@
       <router-link :to="`/evangelism`">Evangélisation</router-link>
       <router-link :to="`/worship`">Louanges</router-link>
       <router-link :to="`/partage`">Partage</router-link>
-      <a href="#">A propos</a>
+      <router-link :to="`/about`">A Propos</router-link>
     </nav>
     <router-view />
   </div>
