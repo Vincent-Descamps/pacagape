@@ -11,7 +11,7 @@
         </div>
           <div class="content">
             <p>{{ event.content }}</p>
-            <date>le {{ event.date }}</date>
+            <p><i>le {{ event.date }}</i></p>
           </div>
         </a>
       </div>

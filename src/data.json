@@ -1,9 +1,9 @@
 {
     "church":[
-      {"id":"1","name":"Cornerstone Christian Fellowship", "address":"3030 Chemin de saint Bernard","postcode":"06220","city":"Vallauris", "phone":"0492389891", "x_coordinate":"43.60160402693565", "y_coordinate":"7.0612802691128636", "denomination":"Evangelical"},
-      {"id":"2","name":"Eglise Evangélique de l'Action Biblique", "address":"133 Chemin de Saint-Marc","postcode":"06130","city":"Grasse", "phone":"0674589121", "x_coordinate":"43.63046205983721", "y_coordinate":"6.962004653772563", "denomination":"Baptiste"},
-      {"id":"3","name":"Assemblée de Dieu de Nice", "address":"8 Bd de Cimiez","postcode":"066000","city":"Nice", "phone":"0493850740", "x_coordinate":"43.70675885354041", "y_coordinate":"7.270015578212718", "denomination":"evangelical"},
-      {"id":"4","name":"Église Protestante Unie de Cannes", "address":"7 Rue Notre Dame","postcode":"06400","city":"Cannes", "phone":"0951774711", "x_coordinate":"43.55205032406336", "y_coordinate":"7.019762624522936", "denomination":"Protestant"}
+      {"id":"1","name":"Cornerstone Christian Fellowship", "address":"3030 Chemin de saint Bernard","postcode":"06220","city":"Vallauris", "phone":"0492389891", "x_coordinate":"43.60160402693565", "y_coordinate":"7.0612802691128636", "denomination":"Evangelical", "website":"https://www.c-stone.org"},
+      {"id":"2","name":"Eglise Evangélique de l'Action Biblique", "address":"133 Chemin de Saint-Marc","postcode":"06130","city":"Grasse", "phone":"0674589121", "x_coordinate":"43.63046205983721", "y_coordinate":"6.962004653772563", "denomination":"Baptiste", "website":"https://www.actionbibliquegrasse.fr"},
+      {"id":"3","name":"Assemblée de Dieu de Nice", "address":"8 Bd de Cimiez","postcode":"06600","city":"Nice", "phone":"0493850740", "x_coordinate":"43.70675885354041", "y_coordinate":"7.270015578212718", "denomination":"evangelical", "website":"http://addnicecimiez.fr/"},
+      {"id":"4","name":"Église Protestante Unie de Cannes", "address":"7 Rue Notre Dame","postcode":"06400","city":"Cannes", "phone":"0951774711", "x_coordinate":"43.55205032406336", "y_coordinate":"7.019762624522936", "denomination":"Protestant", "website":"https://www.eglise-protestante-unie.fr/cannes-p60552"}
     ],
     "event":[
         {"id":"1","title":"bible study","content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt lacus non eleifend tincidunt.","image":"https://holdingtotruth.com/wp-content/uploads/2011/12/Open-Bible-with-Pen.jpg","date":"05/08/2021","address":"305 avenue de saint philippe, 06410 Biot","author":"James Morgan","link":"www.c-stone.org"},
