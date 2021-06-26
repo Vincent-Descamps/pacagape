@@ -3,7 +3,7 @@
     <nav id="nav">
       <router-link :to="`/`">Acceuil</router-link>
       <router-link :to="`/unity`">Unité</router-link>
-      <router-link :to="`/jesus`">Pourquoi Jésus</router-link>
+      <router-link :to="`/jesus`">Pourquoi Jésus?</router-link>
       <router-link :to="`/disciple`">Disciple</router-link>
       <router-link :to="`/evangelism`">Evangélisation</router-link>
       <router-link :to="`/worship`">Louanges</router-link>
@@ -15,6 +15,7 @@
 </template>
 
 <style>
+@import "assets/style.css";
 *{
   margin: 0;
   padding: 0;
