@@ -1,6 +1,6 @@
 # pacagape
 
-<a href="https://pacagape.netlify.app/">Voir le site (en construction)<a>
+/*<a href="https://pacagape.netlify.app/">Voir le site (en construction)<a>*/
 
 ## Project setup
 ```
